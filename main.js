@@ -24,9 +24,6 @@
 // // alert(formattedCity);
 
 
-
-
-
 // // Assignment 2
 // // var month = prompt("Enter a month");
 // // var charsInMonth = month.length;
