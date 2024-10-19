@@ -138,7 +138,7 @@ if( word_check[i] !== " "){
 }
  let reverse = remoe_space.split("").reverse().join("");
  if (remoe_space === reverse){
-            alert("This  is palindrome ")
+            alert("This is palindrome ")
         }else{
                 alert("This is not palindrome ")
             };
