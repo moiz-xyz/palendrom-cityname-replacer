@@ -25,7 +25,9 @@
 
 
 
-
+// // assignmnet no 1 
+// let cities = "karcHi , Lahore , Peshwar";
+// let capitalize = cities.slice(0,)
 
 // // Assignment 2
 // // var month = prompt("Enter a month");
@@ -81,3 +83,64 @@
 // // // // Extracting using substring
 // // // let part2 = str.substring(4, 14);  // Extracts from index 4 to 13
 // // // console.log(part2);  // Output: "Script Pro"
+     
+
+
+
+
+
+// pelendrum 
+// // for (i= 0; i<word_check.length;i++);
+// // let word_check ="A man, a plan, a canal, Panama"
+// // let splt = word_check.split("").reverse().join("").replace(" ","");
+// let splt = word_check.split("").reverse().join("");
+// let correct = splt.replace(/ /g, "");
+// // alert(correct)
+// // let replae = splt.replace(" ","")
+// // let split = splt.slice(0,[i]);
+// // alert(split)
+// // alert(splt)
+// if (word_check === ){
+    //     alert("The word is palindrome ")
+    // }else{
+        //     alert("The word is not palindrome ")
+        // };
+        // let inp
+        
+    //     let word_check = prompt("Enter a word to check whether the eord is palindrome  or not").toLowerCase();
+    //     let remoe_space = "";
+    //     for (let i= 0; i < word_check.length;i++){
+    //     if( word_check[i] !== " "){
+    //         remoe_space += word_check[i];
+    //     }
+    // }
+    //   let reverse = remoe_space.split("").reverse().join("");
+    //     // alert(reverse);
+    //      if (remoe_space === reverse){
+    //                 alert("The word is palindrome ")
+    //             }else{
+    //                     alert("The word is not palindrome ")
+    //                 };
+
+//             const inputString = prompt("Enter a string:");
+// // let outputString = "";
+// // for (let i = 0; i < inputString.length; i++) {
+// //   if (inputString[i] !== " ") {
+// //     outputString += inputString[i];
+// //   }
+// // }
+// console.log(inputString);
+
+   let word_check = prompt("Enter a word to check whether the eord is palindrome  or not").toLowerCase(); 
+   let remoe_space = "";
+  for (let i= 0; i < word_check.length;i++){
+if( word_check[i] !== " "){
+    remoe_space += word_check[i];
+}
+}
+ let reverse = remoe_space.split("").reverse().join("");
+ if (remoe_space === reverse){
+            alert("This  is palindrome ")
+        }else{
+                alert("This is not palindrome ")
+            };
