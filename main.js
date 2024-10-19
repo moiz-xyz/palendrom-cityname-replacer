@@ -25,9 +25,7 @@
 
 
 
-// // assignmnet no 1 
-// let cities = "karcHi , Lahore , Peshwar";
-// let capitalize = cities.slice(0,)
+
 
 // // Assignment 2
 // // var month = prompt("Enter a month");
@@ -144,3 +142,4 @@ if( word_check[i] !== " "){
         }else{
                 alert("This is not palindrome ")
             };
+             jgh \
