@@ -142,4 +142,4 @@ if( word_check[i] !== " "){
         }else{
                 alert("This is not palindrome ")
             };
-             jgh \
+            
